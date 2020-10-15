@@ -32,7 +32,7 @@ Furo is a volunteer maintained open source project, and we welcome contributions
 
 Furo is inspired by (and borrows elements from) some excellent technical documentation themes:
 
-- [mkdocs-material] for MkDocs
+* [mkdocs-material] for MkDocs
 - [Just the Docs] for Jekyll
 - [GitBook]
 
