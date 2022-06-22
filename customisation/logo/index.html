@@ -5,10 +5,10 @@
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 <link rel="index" title="Index" href="../../genindex/" /><link rel="search" title="Search" href="../../search/" /><link rel="next" title="Adding an announcement banner" href="../announcement/" /><link rel="prev" title="Customisation" href="../" />
 
-    <meta name="generator" content="sphinx-4.5.0, furo 2022.04.07.dev1"/>
+    <meta name="generator" content="sphinx-4.5.0, furo 2022.06.21.dev1"/>
         <title>Adding a logo - Furo</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=40978830699223671f4072448e654b5958f38b89" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/tabs.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
@@ -262,7 +262,7 @@
 <section id="same-logo-for-light-and-dark-mode">
 <h2>Same logo for light and dark mode<a class="headerlink" href="#same-logo-for-light-and-dark-mode" title="Permalink to this headline">#</a></h2>
 <p>Furo supports the standard Sphinx mechanism to add your project’s logo in the documentation, using the <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_logo"><code class="docutils literal notranslate"><span class="pre">html_logo</span></code></a> variable in <code class="docutils literal notranslate"><span class="pre">conf.py</span></code>.</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_logo</span> <span class="o">=</span> <span class="s2">"logo.png"</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_logo</span> <span class="o">=</span> <span class="s2">&quot;logo.png&quot;</span>
 </pre></div>
 </div>
 </section>
@@ -270,10 +270,10 @@
 <h2>Different logos for light and dark mode<a class="headerlink" href="#different-logos-for-light-and-dark-mode" title="Permalink to this headline">#</a></h2>
 <p>Furo also supports setting different logos for light and dark mode. This can be necessary if the project’s logo is transparent and does not maintain sufficient contrast with the background in both modes.</p>
 <p>This is done by setting <code class="docutils literal notranslate"><span class="pre">light_logo</span></code> and <code class="docutils literal notranslate"><span class="pre">dark_logo</span></code> in <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_theme_options"><code class="docutils literal notranslate"><span class="pre">html_theme_options</span></code></a> in <code class="docutils literal notranslate"><span class="pre">conf.py</span></code>.</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_static_path</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"_static"</span><span class="p">]</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">html_static_path</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;_static&quot;</span><span class="p">]</span>
 <span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s2">"light_logo"</span><span class="p">:</span> <span class="s2">"logo-light-mode.png"</span><span class="p">,</span>
-    <span class="s2">"dark_logo"</span><span class="p">:</span> <span class="s2">"logo-dark-mode.png"</span><span class="p">,</span>
+    <span class="s2">&quot;light_logo&quot;</span><span class="p">:</span> <span class="s2">&quot;logo-light-mode.png&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;dark_logo&quot;</span><span class="p">:</span> <span class="s2">&quot;logo-dark-mode.png&quot;</span><span class="p">,</span>
 <span class="p">}</span>
 </pre></div>
 </div>
